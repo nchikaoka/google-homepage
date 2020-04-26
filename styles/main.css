@@ -43,6 +43,7 @@ a:hover{
     height:44px;
     margin:0 auto;
     width:482px;
+    align-items: center;
 }
 .searchbox:hover {
     box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
@@ -52,10 +53,17 @@ a:hover{
     box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
     border-color:rgba(223,225,229,0);
 }
+#search-icon{
+    width: 25px;
+    color: #9AA0A6;
+    fill: currentColor;
+    height: 100%;
+    margin: 15px;
+}
 .q {
     background-color:transparent;
     border:none;
-    margin:0;
+    margin:0 55px 0 0;
     padding:0;
     color:rgba(0,0,0,.87);
     word-wrap:break-word;
