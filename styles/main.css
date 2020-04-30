@@ -125,3 +125,33 @@ a:hover{
     display: inline-block;
     border-radius: 2px;
 }
+
+#footbar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    line-height: 40px;
+}
+
+#footbar div{
+    border: 1px solid #e4e4e4;
+}
+
+#footbar li {
+    display: inline;
+    padding-left: 27px;
+    color: #e4e4e4;
+}
+
+#footbar a{
+    color: #5f6368
+}
+
+#foot-lvl2 a:hover{
+    text-decoration: underline;
+    opacity: .85;
+}
